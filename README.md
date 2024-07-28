@@ -6,10 +6,8 @@ This project is a web application designed to automate the extraction and proces
 
 - [Features](#features)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [License](#license)
+- [Screenshots](#screenschots)
 
 ## Features
 
@@ -31,9 +29,30 @@ This project is a web application designed to automate the extraction and proces
 - google.generativeai
 - pandas
 
-## Installation
+## Usage
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/automated-invoice-processing-system.git
-   cd automated-invoice-processing-system
+- Running the Application:
+- Open your browser and go to http://127.0.0.1:5000/.
+- Click on "Choose Files" and select the files you want.
+- Click "Upload".
+- Review and Edit:
+- Check the extracted fields such as Scan Id, Country, Bill To Name, Currency, Invoice Date, etc.
+- Edit any field directly in the browser if needed.
+- Download the Processed Data:
+- Click "Submit" after reviewing.
+- Click the download link to get your invoices_summary_edited.xlsx file.
+
+## Screenshots
+
+File upload page:
+![Screenshot 2024-07-28 165505](https://github.com/user-attachments/assets/c8e82e16-a439-470b-8a8c-49e3168f7e35)
+
+Preview and edit page:
+![Screenshot 2024-07-28 165320](https://github.com/user-attachments/assets/563f2c11-23df-4cbb-94fc-82f38b3156e1)
+
+Summary Sheet:
+![Screenshot 2024-07-28 165705](https://github.com/user-attachments/assets/4833d70e-82f1-44bc-a5f1-0a32b88e7799)
+
+
+
+
