@@ -1,4 +1,4 @@
-Flaask
+Flask
 PyPDF2
 pytesseract
 Pillow
